@@ -1,0 +1,85 @@
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+.sub-text{
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
+.fun-text{
+	font-size: 21px;
+	letter-spacing: 1px;
+}
+h1{
+	font-size: 45px;
+}
+.head{
+	min-height: 100vh;
+	background-image: url(../img/1.jpg);
+	background-size: 100% 100%;
+	z-index: -1;
+}
+.head-blur{
+	min-height: 100vh;
+	background-size: 100% 100%;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.4);
+	margin: 0px;
+}
+.menu-bar{
+	padding-top: 3%;
+	z-index: 1;
+}
+.menu{
+	padding-top: 1%;
+	text-align: right;
+}
+.menu:hover{
+	opacity: .5;
+}
+.head-items{
+	color: white;
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+}
+.in-line{
+	list-style-type: none;
+	padding-left: 0px;
+	padding-top: 8%;
+}
+.in-line li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.download-btn{
+	background: transparent;
+	color: white;
+}
+.btn-text p{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+.btn-para-1{
+	font-size: 15px;
+	text-align: left;
+}
+.btn-para-2{
+	font-size: 24px;
+	line-height: 15px;
+}
+.btn-text{
+	padding-left: 0px;
+	padding-right: 30px;
+}
+.download-btn{
+	border-radius: 30px;
+}
+.download-btn:hover{
+	color: white;
+	background-color: #e1666a;
+}
+.head-mobile{
+	background-image: url(../img/2.png);
+    position: relative;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
