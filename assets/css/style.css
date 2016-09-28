@@ -16,6 +16,12 @@ h1,h2,h3,h4,h5,h6{
 h1{
 	font-size: 45px;
 }
+h2{
+    font-size: 32px;
+}
+h3{
+	font-size: 21px;
+}
 .head{
 	min-height: 100vh;
 	background-image: url(../img/1.jpg);
@@ -81,6 +87,7 @@ h1{
 }
 .head-mobile{
 	min-height: 80vh;
+	max-width: 60vh;
 	background-image: url(../img/mobile.png);
     position: relative;
     background-position: bottom;
@@ -123,4 +130,40 @@ h1{
 .icon:hover{
 	color: white;
 	background-color: #e1666a;
+}
+.icon-mobile{
+	padding: 25px 35px;
+}
+.block a{
+	text-decoration: none;
+	color: black;
+}
+.block a:hover{
+	color: #e1666a;
+}
+.block p{
+	font-size: 14px;
+}
+.explore-mindcraft{
+	background-color: #fafafa;
+	border-bottom: 1px solid #dbdbdb;
+}
+.section {
+	color:#666666;
+}
+.block h3{
+	color:#666666;
+}
+.explore h2{
+	margin-top: 14%;
+	margin-bottom: 3%;
+}
+.explore p{
+	font-size: 15px;
+}
+.explore-btn{
+	color:#666666; 
+}
+.mindcraft-action{
+	text-align: center;
 }
