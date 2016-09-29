@@ -167,3 +167,6 @@ h3{
 .mindcraft-action{
 	text-align: center;
 }
+iframe {
+	size: 500px 200px;
+}
