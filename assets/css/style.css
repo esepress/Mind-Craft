@@ -84,6 +84,7 @@ h3{
 .btn-style:hover{
 	color: white;
 	background-color: #e1666a;
+	border:none;
 }
 .head-mobile{
 	min-height: 80vh;
@@ -167,6 +168,48 @@ h3{
 .mindcraft-action{
 	text-align: center;
 }
+.mindcraft-action h2{
+	margin: 0px;
+}
 iframe {
-	size: 500px 200px;
+	width: 700px;
+	height: 470px;
+	border:none;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+.social ul{
+    padding-left: 0px;
+}
+.social li{
+    list-style-type: none;
+    display: inline-block;
+    border:1px solid black;
+    margin-right: 20px;
+}
+.social a{
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social a:hover{
+    color: #ffffff;
+    background-color: #e1666a;
+    transition: .5s;
+}
+.social li:hover{
+	border:1px solid #e1666a;
+	transform: .5s;
+}
+.social{
+	padding-top: 20px;
+}
+.testimonial{
+	background-image: url(../img/5.jpg);
+	background-size: 100% 100%;
+	z-index: -1;
+	color: white;
+	text-align: center;
 }
