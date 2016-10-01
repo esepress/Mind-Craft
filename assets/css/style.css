@@ -213,3 +213,18 @@ iframe {
 	color: white;
 	text-align: center;
 }
+.crsl-view{
+	color: black;
+	background-color: white;
+	padding: 2% 5%;
+	margin:1% 25%;
+	border-radius: 5px;
+}
+.owl-buttons .owl-next{ /* right arrow */
+    float: right;
+
+    background: red;
+} 
+.owl-prev{
+	background-color: red;
+}
