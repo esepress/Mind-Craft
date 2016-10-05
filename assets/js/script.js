@@ -1,18 +1,16 @@
+$(document).ready(function(){
 
-
-
-
-    $(document).ready(function() {
-     
-      $("#owl-demo").owlCarousel({
-     
-          navigation : true, // Show next and prev buttons
-          slideSpeed : 300,
-          paginationSpeed : 400,
-          singleItem:true
-
-     
-      });
-     
+    $("#testimonial").owlCarousel({
+        items: 1,
+        loop:true,
+        autoplay: true,
+        navText: ["next","Prev"],
+        center: true,
+        margin: 10,
+        nav: true,
+        autoHeight: true
     });
+
+});
+
 

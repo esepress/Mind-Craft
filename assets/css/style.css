@@ -220,11 +220,37 @@ iframe {
 	margin:1% 25%;
 	border-radius: 5px;
 }
-.owl-buttons .owl-next{ /* right arrow */
-    float: right;
 
-    background: red;
-} 
-.owl-prev{
-	background-color: red;
+.owl-carousel.owl-loading {
+	opacity: 1;
+}
+.user-interface h2
+{
+	text-align: center;
+}
+.user-interface
+{
+	background-color: #ebeaea;
+}
+.user-interface-blocks
+{
+	padding-top: 6%;
+	padding-left: 2%;
+}
+.round
+{
+	text-align: center;
+	color: #e1666a;
+	border:solid 1px #e1666a;
+	padding: 37% 46%;
+	border-radius: 100%;
+}
+.user-interface-blocks h4
+{
+	margin-bottom: 0px;
+	margin-top: 6%;
+}
+.interface-block
+{
+	margin-bottom: 5%;
 }
