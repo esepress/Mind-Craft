@@ -318,3 +318,28 @@ iframe {
 	color: white;
 	text-align: center;
 }
+.newsletter input
+{
+	background-color: transparent;
+	color: white;
+    padding-right: 150px;
+    border-color: white;
+    border-radius: 0%;
+}
+.newsletter form
+{
+	margin-top: 5%;
+}
+.newsletter button
+{
+	background-color: transparent;
+	color: white;
+	border-color: white;
+    border-radius: 0%;
+    margin-left: 10px;
+}
+.newsletter button:hover
+{
+	background-color: white;
+	color: black;
+}
