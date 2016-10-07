@@ -1,0 +1,45 @@
+<div class="col-md-4 col-xs-12 head-mobile">
+	<img class="img-responsive" src="assets/icon/logo.png">
+	<h4>MINDCRAFT</h4>
+	<ul>
+		<li><a class="btn btn-default login-btn btn-style" href="#">LOGIN</a></li>
+		<li><a class="btn btn-default signup-btn btn-style" href="#">SIGN UP</a></li>
+	</ul>	
+</div>
+
+.head-mobile{
+	min-height: 80vh;
+	max-width: 60vh;
+	background-image: url(../img/mobile.png);
+    position: relative;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 25vh;
+    padding-bottom: 20vh;
+    background-size: 100% 100%;
+    text-align: center;
+    align-content: center;
+    color: white;
+    margin-top: 2%;
+}
+.head-mobile img{
+	margin-left: auto;
+	margin-right: auto;
+}
+.head-mobile h4{
+	margin-top: 10px;
+    margin-bottom: 15%;
+}
+.login-btn{
+	border-radius: 30px;
+	padding: 3% 18%;
+}
+.signup-btn{
+	margin-top: 10px;
+	border-radius: 30px;
+	padding: 3% 16%;
+}
+.head-mobile ul{
+	padding: 0px;
+	list-style-type: none;
+}

@@ -85,43 +85,7 @@ h3{
 .btn-style:hover{
 	color: white;
 	background-color: #e1666a;
-	border:none;
-}
-.head-mobile{
-	min-height: 80vh;
-	max-width: 60vh;
-	background-image: url(../img/mobile.png);
-    position: relative;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    padding-top: 25vh;
-    padding-bottom: 20vh;
-    background-size: 100% 100%;
-    text-align: center;
-    align-content: center;
-    color: white;
-    margin-top: 2%;
-}
-.head-mobile img{
-	margin-left: auto;
-	margin-right: auto;
-}
-.head-mobile h4{
-	margin-top: 10px;
-    margin-bottom: 15%;
-}
-.login-btn{
-	border-radius: 30px;
-	padding: 3% 18%;
-}
-.signup-btn{
-	margin-top: 10px;
-	border-radius: 30px;
-	padding: 3% 16%;
-}
-.head-mobile ul{
-	padding: 0px;
-	list-style-type: none;
+	border:1px solid #e1666a;
 }
 .icon{
 	color: #e1666a;
@@ -342,4 +306,23 @@ iframe {
 {
 	background-color: white;
 	color: black;
+}
+.footer-icon .social
+{
+	text-align: center;
+	padding-top: 7px;
+}
+.footer-text
+{
+	text-align: right;
+	font-size: 16px;
+	margin-top: 18px;
+}
+.footer-text i
+{
+	color: #e1666a;
+}
+.footer
+{
+	padding-bottom: 25px;
 }
