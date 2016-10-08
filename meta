@@ -43,3 +43,148 @@
 	padding: 0px;
 	list-style-type: none;
 }
+
+.head-blur{  
+	min-height: 100vh;
+	background-size: 100% 100%;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.4);
+	margin: 0px;
+}
+
+
+.in-line{
+	list-style-type: none;
+	padding-left: 0px;
+	padding-top: 8%;
+}
+.in-line li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.btn-style{
+	background: transparent;
+	color: white;
+	border-radius: 30px;
+}
+.btn-text p{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+.btn-para-1{
+	font-size: 15px;
+	text-align: left;
+}
+.btn-para-2{
+	font-size: 24px;
+	line-height: 15px;
+}
+.btn-text{
+	padding-left: 0px;
+	padding-right: 30px;
+}
+.btn-style:hover{
+	color: white;
+	background-color: #e1666a;
+	border:1px solid #e1666a;
+}
+
+<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<ul class="in-line">
+										<li>
+											<a class="btn btn-default btn-style" href="#">
+												<div class="row">
+													<div class="col-md-4 col-xs-4">
+														<i class="fa fa-apple fa-3x"></i>
+													</div>
+													<div class="col-md-8 col-xs-8 btn-text">
+														<p class="btn-para-1">Download for</p>
+														<p class="btn-para-2">Apple iOS</p>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a class="btn btn-default btn-style" href="#">
+												<div class="row">
+													<div class="col-md-4 col-xs-4">
+														<i class="fa fa-android fa-3x"></i>
+													</div>
+													<div class="col-md-8 col-xs-8 btn-text">
+														<p class="btn-para-1">Download for</p>
+														<p class="btn-para-2">Android</p>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+.craft-btn{
+	border-radius: 50px;
+	border-color: #fff;
+	display: inline-block;
+	font-family: 'Roboto';
+	margin-right: 15px;
+	color: #fff;
+	padding: 5px 15px;
+	margin-bottom: 30px;
+}
+.craft-btn span{
+	float: left;
+	font-size: 40px;
+}
+.craft-btn-content h6{
+	font-size: 25px;
+}
+.craft-btn-content p, .craft-btn-content h6{
+	padding: 0 0 0 40px;
+	margin: 0;
+}
+.icon-circle{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 1px solid #ff0000;
+	line-height: 100px;
+	text-align: center;
+	font-size: 40px;
+	color: #f00;
+}
+.icon{
+	color: #e1666a;
+	border:1px solid #e1666a;
+	padding: 25px 27px;
+	border-radius: 100%;
+}
+.icon:hover{
+	color: white;
+	background-color: #e1666a;
+}
+.icon-mobile{
+	padding: 25px 35px;
+}
+.block a{
+	text-decoration: none;
+	color: black;
+}
+.block a:hover{
+	color: #e1666a;
+}
+.block p{
+	font-size: 14px;
+}
+
+
+/*.explore h2{
+	margin-top: 14%;
+	margin-bottom: 3%;
+}
+.explore p{
+	font-size: 15px;
+}
+.explore-btn{
+	color:#666666; 
+}*/

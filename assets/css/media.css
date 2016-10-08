@@ -1,0 +1,35 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 300px) 
+{
+	iframe{
+		height: 200px;
+		width: 280px;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) 
+{
+	.explore-mindcraft .row{
+		display: table;
+	}
+	.explore-mindcraft .row [class*="col-"]{
+		display: table-cell;
+		vertical-align: middle;
+		float: none;
+	}
+	iframe{
+		height: 400px;
+		width: 650px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 950px) 
+{
+
+}

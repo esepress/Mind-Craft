@@ -1,14 +1,19 @@
+/*This is the whole boby default style*/
+body{
+	font-family: 'Lora', serif;
+}
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Roboto', sans-serif;
+
+}
+p{
+	font-style: italic;
+	font-size: 16px;
 }
 .section{
 	padding-top: 7%;
 	padding-bottom: 5%;
 	color:#666666;
-}
-.sub-text{
-	font-family: 'Lora', serif;
-	font-style: italic;
 }
 .fun-text{
 	font-size: 21px;
@@ -23,18 +28,32 @@ h2{
 h3{
 	font-size: 21px;
 }
-.head{
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+.blur{			/*Bluring the bacground images*/
+	z-index: 2;
+	background-color: rgba(0,0,0,0.4);
+	margin: 0px;
+	padding-top: 7%;
+	padding-bottom: 5%;
+}
+/*The head section style*/
+.head{							/*Style's applied for full device height head section */
 	min-height: 100vh;
 	background-image: url(../img/1.jpg);
 	background-size: 100% 100%;
 	z-index: -1;
 }
-.head-blur{
-	min-height: 100vh;
-	background-size: 100% 100%;
-	z-index: 2;
-	background-color: rgba(0,0,0,0.4);
-	margin: 0px;
+.head .blur{
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 .menu-bar{
 	padding-top: 3%;
@@ -49,84 +68,75 @@ h3{
 }
 .head-items{
 	color: white;
-	padding-top: 20vh;
-	padding-bottom: 20vh;
+	padding-top: 18vh;
+	padding-bottom: 18vh;
 }
-.in-line{
-	list-style-type: none;
-	padding-left: 0px;
-	padding-top: 8%;
+/*Download button property*/
+.craft-btn{
+	border-color: #ffffff;
+	border-radius: 50px;
+	color: #ffffff;
+	padding: 5px 15px;
+	margin-top: 5%;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	font-family: 'Roboto';
 }
-.in-line li{
-	display: inline-block;
-	margin-right: 15px;
+.craft-btn span{
+	float: left;
+	font-size: 40px;
 }
-.btn-style{
-	background: transparent;
-	color: white;
-	border-radius: 30px;
+.craft-btn-content h4{
+	font-size: 25px;
 }
-.btn-text p{
-	margin: 0px;
-	font-family: 'Roboto', sans-serif;
-}
-.btn-para-1{
-	font-size: 15px;
-	text-align: left;
-}
-.btn-para-2{
-	font-size: 24px;
-	line-height: 15px;
-}
-.btn-text{
-	padding-left: 0px;
-	padding-right: 30px;
-}
-.btn-style:hover{
-	color: white;
-	background-color: #e1666a;
-	border:1px solid #e1666a;
-}
-.icon{
-	color: #e1666a;
-	border:1px solid #e1666a;
-	padding: 25px 27px;
-	border-radius: 100%;
-}
-.icon:hover{
-	color: white;
-	background-color: #e1666a;
-}
-.icon-mobile{
-	padding: 25px 35px;
-}
-.block a{
-	text-decoration: none;
-	color: black;
-}
-.block a:hover{
-	color: #e1666a;
-}
-.block p{
+.craft-btn-content h6{
 	font-size: 14px;
 }
+.craft-btn-content h4, .craft-btn-content h6{
+	margin: 0px;
+	margin-left: 40px;
+}
+.craft-btn:hover{
+	color: #ffffff;
+	background-color: #e1666a;
+	border-color:#e1666a;
+}
+/*Feature section style*/
+.feature-block h3{
+	color:#666666;
+}
+.icon-circle{
+	height: 90px;
+	width: 90px;
+	border: 1px solid #e1666a;
+	border-radius: 100%;
+	font-size: 30px;
+	line-height: 90px;
+	text-align: center;
+	color: #e1666a;
+}
+/*Hover effect*/
+.onHover .icon-circle{
+	color: #ffffff;
+	background-color: #e1666a;
+}
+.onHover h3{
+	color: #e1666a;
+}
+/*Explore mind-craft section style*/
 .explore-mindcraft{
 	background-color: #fafafa;
 	border-bottom: 1px solid #dbdbdb;
 }
-.block h3{
-	color:#666666;
+.explore .craft-btn{
+	color: #666666;
+	border-color: #666666;
 }
-.explore h2{
-	margin-top: 14%;
-	margin-bottom: 3%;
+.explore .craft-btn:hover{
+	color: #ffffff;
+	border-color: #e1666a;
 }
-.explore p{
-	font-size: 15px;
-}
-.explore-btn{
-	color:#666666; 
-}
+/*Mind-craft in action style*/
 .mindcraft-action{
 	text-align: center;
 }
@@ -155,7 +165,6 @@ iframe {
     text-align: center;
     text-decoration: none;
 }
-
 .social a:hover{
     color: #ffffff;
     background-color: #e1666a;
@@ -168,6 +177,7 @@ iframe {
 .social{
 	padding-top: 20px;
 }
+/*Testimonial style property*/
 .testimonial{
 	background-image: url(../img/5.jpg);
 	background-size: 100% 100%;
@@ -186,39 +196,33 @@ iframe {
 .owl-carousel.owl-loading {
 	opacity: 1;
 }
-.carousel-view ul
-{
+.carousel-view ul{
 	list-style-type: none;
 	padding-left: 0px;
 }
-.carousel-view li
-{
+.carousel-view li{
 	display: inline-block;
 	color: #e1666a;
 }
-.owl-carousel .owl-nav .owl-next
-{
+.owl-carousel .owl-nav .owl-next{
 	position: absolute;
 	left: 19%;
 	top: 19%;
 	border:1px solid white;
 	padding: 10px 17px;
 }
-.owl-carousel .owl-nav .owl-prev
-{
+.owl-carousel .owl-nav .owl-prev{
 	position: absolute;
 	right: 19%;
 	top: 19%;
 	border:1px solid white;
 	padding:  10px 17px;
 }
-.owl-carousel .owl-nav .owl-next:hover,.owl-carousel .owl-nav .owl-prev:hover
-{
+.owl-carousel .owl-nav .owl-next:hover,.owl-carousel .owl-nav .owl-prev:hover{
 	background-color: #e1666a;
 	border:none;
 }
-.owl-carousel .owl-dot 
-{
+.owl-carousel .owl-dot {
 	background-color: transparent;
 	border-radius: 100%;
 	border:1px solid white;
@@ -226,103 +230,104 @@ iframe {
 	padding: 5px 5px;
 	margin-right: 5px;
 }
-.owl-carousel .owl-dot.active
-{
+.owl-carousel .owl-dot.active{
 	background-color: #e1666a;
 	border-color:#e1666a; 
 }
-.owl-carousel .owl-item img
-{
+.owl-carousel .owl-item img{
 	width: 10%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2%;
 	margin-top: 2%;
 }
-.user-interface h2
-{
+.user-interface h2{
 	text-align: center;
 }
-.user-interface
-{
+.user-interface{
 	background-color: #ebeaea;
 }
-.user-interface-blocks
-{
+.user-interface-blocks{
 	padding-top: 55px;
 	padding-left: 20px;
 }
-.round
-{
+.round{
 	text-align: center;
 	color: #e1666a;
 	border:solid 1px #e1666a;
 	padding: 31px 29px;
 	border-radius: 100%;
 }
-.round img
-{
+.round img{
 	margin-right:auto;
 	margin-left: auto;
 }
-.user-interface-blocks h4
-{
+.user-interface-blocks h4{
 	margin-bottom: 0px;
 	margin-top: 6%;
 }
-.interface-block
-{
+.interface-block{
 	margin-bottom: 5%;
 }
-.newsletter
-{
+.newsletter{
 	background-image: url(../img/7.jpg);
 	background-size: 100% 100%;
 	z-index: -1;
 	color: white;
 	text-align: center;
 }
-.newsletter input
-{
+.newsletter input{
 	background-color: transparent;
 	color: white;
-    padding-right: 150px;
+    width: 500px;
+    height: 50px;
     border-color: white;
     border-radius: 0%;
+    font-size: 16px;
 }
-.newsletter form
-{
+.newsletter form{
 	margin-top: 5%;
+	margin-bottom: 5%;
 }
-.newsletter button
-{
+.newsletter button{
 	background-color: transparent;
 	color: white;
 	border-color: white;
     border-radius: 0%;
     margin-left: 10px;
 }
-.newsletter button:hover
-{
+.newsletter-form{
+	text-align: center;
+}
+.newsletter button:hover{
 	background-color: white;
 	color: black;
 }
-.footer-icon .social
-{
+.footer-icon .social{
 	text-align: center;
 	padding-top: 7px;
 }
-.footer-text
-{
+.footer-text{
 	text-align: right;
 	font-size: 16px;
 	margin-top: 18px;
 }
-.footer-text i
-{
+.footer-text i{
 	color: #e1666a;
 }
-.footer
-{
+.footer{
 	padding-bottom: 25px;
 }
+
+
+
+/*Humayun*/
+
+/*.explore-mindcraft .row{
+	display: tabe;
+}
+.explore-mindcraft .row [class*="col-"]{
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}*/
