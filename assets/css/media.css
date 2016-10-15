@@ -1,17 +1,54 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
+/* Medium devices (desktops, 992px and up) */
 /* Small devices (tablets, 768px and up) */
+/* Large devices (large desktops, 1200px and up) */
+
+
 @media (min-width: 300px) 
 {
 	iframe{
 		height: 200px;
 		width: 280px;
 	}
-
+	.carousel-view{
+		color: black;
+		background-color: white;
+		padding: 2% 5%;
+		margin:1% 6%;
+		border-radius: 5px;
+	}
+	.form-inline .form-control{
+		width: 120px;
+		height: 30px;
+		font-size: 14px;
+	}
+	p{
+		font-style: italic;
+		font-size: 14px;
+	}
+	h1{
+		font-size: 45px;
+	}
+	h2{
+	    font-size: 32px;
+	}
+	h3{
+		font-size: 21px;
+	}
+	.footer-text{
+		margin-top: 0px;
+		font-size: 10px;
+	}
+	.footer-social a{
+		padding: 6px;
+	}
+	.footer-social li{
+		margin-right: 2px;
+	}
 }
 
-/* Medium devices (desktops, 992px and up) */
+
 @media (min-width: 768px) 
 {
 	.explore-mindcraft .row{
@@ -26,9 +63,35 @@
 		height: 400px;
 		width: 650px;
 	}
+	.carousel-view{
+		color: black;
+		background-color: white;
+		padding: 2% 5%;
+		margin:1% 25%;
+		border-radius: 5px;
+	}
+	.form-inline .form-control{
+		width: 420px;
+		height: 40px;
+		font-size: 16px;
+	}
+	p{
+		font-style: italic;
+		font-size: 16px;
+	}
+	h1{
+		font-size: 45px;
+	}
+	h2{
+	    font-size: 32px;
+	}
+	h3{
+		font-size: 21px;
+	}
+
 }
 
-/* Large devices (large desktops, 1200px and up) */
+
 @media (min-width: 950px) 
 {
 

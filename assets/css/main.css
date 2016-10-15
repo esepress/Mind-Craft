@@ -2,7 +2,7 @@
 body{
 	font-family: 'Lora', serif;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,button{
 	font-family: 'Roboto', sans-serif;
 
 }
@@ -142,6 +142,7 @@ h6{
 }
 .mindcraft-action h2{
 	margin: 0px;
+	margin-bottom: 20px;
 }
 iframe {
 	width: 700px;
@@ -241,6 +242,7 @@ iframe {
 	margin-bottom: 2%;
 	margin-top: 2%;
 }
+/*Simplest user interface style*/
 .user-interface h2{
 	text-align: center;
 }
@@ -251,16 +253,8 @@ iframe {
 	padding-top: 55px;
 	padding-left: 20px;
 }
-.round{
-	text-align: center;
-	color: #e1666a;
-	border:solid 1px #e1666a;
-	padding: 31px 29px;
-	border-radius: 100%;
-}
-.round img{
-	margin-right:auto;
-	margin-left: auto;
+.icon-circle img{
+	margin: 50% auto;
 }
 .user-interface-blocks h4{
 	margin-bottom: 0px;
@@ -269,6 +263,7 @@ iframe {
 .interface-block{
 	margin-bottom: 5%;
 }
+/*News letter section style*/
 .newsletter{
 	background-image: url(../img/7.jpg);
 	background-size: 100% 100%;
@@ -279,30 +274,41 @@ iframe {
 .newsletter input{
 	background-color: transparent;
 	color: white;
-    width: 500px;
-    height: 50px;
     border-color: white;
     border-radius: 0%;
-    font-size: 16px;
+    padding: 20px 20px;
+}
+.form-control::-webkit-input-placeholder {
+   color: #ffffff;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #ffffff;  
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #ffffff;  
+}
+
+.form-control:-ms-input-placeholder {  
+   color: #ffffff;  
 }
 .newsletter form{
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
 .newsletter button{
-	background-color: transparent;
-	color: white;
+	background-color: #ffffff;
+	color: #424242;
 	border-color: white;
     border-radius: 0%;
-    margin-left: 10px;
+    margin-left: 12px;
+    padding: 9px 25px;
 }
 .newsletter-form{
 	text-align: center;
 }
-.newsletter button:hover{
-	background-color: white;
-	color: black;
-}
+
 .footer-icon .social{
 	text-align: center;
 	padding-top: 7px;
