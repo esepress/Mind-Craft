@@ -1,0 +1,347 @@
+/*This is the whole boby default style*/
+body{
+	font-family: 'Lora', serif;
+}
+h1,h2,h3,h4,h5,h6,button{
+	font-family: 'Roboto', sans-serif;
+
+}
+p{
+	font-style: italic;
+	font-size: 16px;
+}
+.section{
+	padding-top: 7%;
+	padding-bottom: 5%;
+	color:#666666;
+}
+.fun-text{
+	font-size: 21px;
+	letter-spacing: 1px;
+}
+h1{
+	font-size: 45px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+	font-size: 21px;
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+.blur{			/*Bluring the bacground images*/
+	z-index: 2;
+	background-color: rgba(0,0,0,0.4);
+	margin: 0px;
+	padding-top: 7%;
+	padding-bottom: 5%;
+}
+/*The head section style*/
+.head{							/*Style's applied for full device height head section */
+	min-height: 100vh;
+	background-image: url(../img/1.jpg);
+	background-size: 100% 100%;
+	z-index: -1;
+}
+.head .blur{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 100vh;
+}
+.menu-bar{
+	padding-top: 3%;
+	z-index: 1;
+}
+.menu{
+	padding-top: 1%;
+	text-align: right;
+}
+.menu:hover{
+	opacity: .5;
+}
+.head-items{
+	color: white;
+	padding-top: 18vh;
+	padding-bottom: 18vh;
+}
+/*Download button property*/
+.craft-btn{
+	border-color: #ffffff;
+	border-radius: 50px;
+	color: #ffffff;
+	padding: 5px 15px;
+	margin-top: 5%;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	font-family: 'Roboto';
+}
+.craft-btn span{
+	float: left;
+	font-size: 40px;
+}
+.craft-btn-content h4{
+	font-size: 25px;
+}
+.craft-btn-content h6{
+	font-size: 14px;
+}
+.craft-btn-content h4, .craft-btn-content h6{
+	margin: 0px;
+	margin-left: 40px;
+}
+.craft-btn:hover{
+	color: #ffffff;
+	background-color: #e1666a;
+	border-color:#e1666a;
+}
+/*Feature section style*/
+.feature-block h3{
+	color:#666666;
+}
+.icon-circle{
+	height: 90px;
+	width: 90px;
+	border: 1px solid #e1666a;
+	border-radius: 100%;
+	font-size: 30px;
+	line-height: 90px;
+	text-align: center;
+	color: #e1666a;
+}
+/*Hover effect*/
+.onHover .icon-circle{
+	color: #ffffff;
+	background-color: #e1666a;
+}
+.onHover h3{
+	color: #e1666a;
+}
+/*Explore mind-craft section style*/
+.explore-mindcraft{
+	background-color: #fafafa;
+	border-bottom: 1px solid #dbdbdb;
+}
+.explore .craft-btn{
+	color: #666666;
+	border-color: #666666;
+}
+.explore .craft-btn:hover{
+	color: #ffffff;
+	border-color: #e1666a;
+}
+/*Mind-craft in action style*/
+.mindcraft-action{
+	text-align: center;
+}
+.mindcraft-action h2{
+	margin: 0px;
+	margin-bottom: 20px;
+}
+iframe {
+	width: 700px;
+	height: 470px;
+	border:none;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+.social ul{
+    padding-left: 0px;
+}
+.social li{
+    list-style-type: none;
+    display: inline-block;
+    border:1px solid black;
+    margin-right: 20px;
+}
+.social a{
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.social a:hover{
+    color: #ffffff;
+    background-color: #e1666a;
+    transition: .5s;
+}
+.social li:hover{
+	border:1px solid #e1666a;
+	transform: .5s;
+}
+.social{
+	padding-top: 20px;
+}
+/*Testimonial style property*/
+.testimonial{
+	background-image: url(../img/5.jpg);
+	background-size: 100% 100%;
+	z-index: -1;
+	color: white;
+	text-align: center;
+}
+.carousel-view{
+	color: black;
+	background-color: white;
+	padding: 2% 5%;
+	margin:1% 25%;
+	border-radius: 5px;
+}
+
+.owl-carousel.owl-loading {
+	opacity: 1;
+}
+.carousel-view ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+.carousel-view li{
+	display: inline-block;
+	color: #e1666a;
+}
+.owl-carousel .owl-nav .owl-next{
+	position: absolute;
+	left: 19%;
+	top: 19%;
+	border:1px solid white;
+	padding: 10px 17px;
+}
+.owl-carousel .owl-nav .owl-prev{
+	position: absolute;
+	right: 19%;
+	top: 19%;
+	border:1px solid white;
+	padding:  10px 17px;
+}
+.owl-carousel .owl-nav .owl-next:hover,.owl-carousel .owl-nav .owl-prev:hover{
+	background-color: #e1666a;
+	border:none;
+}
+.owl-carousel .owl-dot {
+	background-color: transparent;
+	border-radius: 100%;
+	border:1px solid white;
+	display: inline-block;
+	padding: 5px 5px;
+	margin-right: 5px;
+}
+.owl-carousel .owl-dot.active{
+	background-color: #e1666a;
+	border-color:#e1666a; 
+}
+.owl-carousel .owl-item img{
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+/*Simplest user interface style*/
+.user-interface h2{
+	text-align: center;
+}
+.user-interface{
+	background-color: #ebeaea;
+}
+.user-interface-blocks{
+	padding-top: 55px;
+	padding-left: 20px;
+}
+.icon-circle img{
+	margin: 50% auto;
+}
+.user-interface-blocks h4{
+	margin-bottom: 0px;
+	margin-top: 6%;
+}
+.interface-block{
+	margin-bottom: 5%;
+}
+/*News letter section style*/
+.newsletter{
+	background-image: url(../img/7.jpg);
+	background-size: 100% 100%;
+	z-index: -1;
+	color: white;
+	text-align: center;
+}
+.newsletter input{
+	background-color: transparent;
+	color: white;
+    border-color: white;
+    border-radius: 0%;
+    padding: 20px 20px;
+}
+.form-inline .form-control{
+	width: 420px;
+	height: 40px;
+	font-size: 16px;
+}
+.form-control::-webkit-input-placeholder {
+   color: #ffffff;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #ffffff;  
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #ffffff;  
+}
+
+.form-control:-ms-input-placeholder {  
+   color: #ffffff;  
+}
+.newsletter form{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.newsletter button{
+	background-color: #ffffff;
+	color: #424242;
+	border-color: white;
+    border-radius: 0%;
+    margin-left: 12px;
+    padding: 9px 25px;
+}
+.newsletter-form{
+	text-align: center;
+}
+
+.footer-icon .social{
+	text-align: center;
+	padding-top: 7px;
+}
+.footer-text{
+	text-align: right;
+	font-size: 16px;
+	margin-top: 18px;
+}
+.footer-text i{
+	color: #e1666a;
+}
+.footer{
+	padding-bottom: 25px;
+}
+.footer .container .row{
+	padding-top: 3%;
+}
+
+
+/*Humayun*/
+
+/*.explore-mindcraft .row{
+	display: tabe;
+}
+.explore-mindcraft .row [class*="col-"]{
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}*/
