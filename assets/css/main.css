@@ -54,6 +54,7 @@ h6{
 .head .blur{
 	padding-top: 0px;
 	padding-bottom: 0px;
+	min-height: 100vh;
 }
 .menu-bar{
 	padding-top: 3%;
@@ -278,6 +279,11 @@ iframe {
     border-radius: 0%;
     padding: 20px 20px;
 }
+.form-inline .form-control{
+	width: 420px;
+	height: 40px;
+	font-size: 16px;
+}
 .form-control::-webkit-input-placeholder {
    color: #ffffff;
 }
@@ -324,7 +330,9 @@ iframe {
 .footer{
 	padding-bottom: 25px;
 }
-
+.footer .container .row{
+	padding-top: 3%;
+}
 
 
 /*Humayun*/
