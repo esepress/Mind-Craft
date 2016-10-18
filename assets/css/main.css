@@ -44,6 +44,32 @@ h6{
 	padding-top: 7%;
 	padding-bottom: 5%;
 }
+/*Menu bar style*/
+.nav-bar{
+	position: absolute;
+	top: 40px;
+	right: 150px;
+	z-index: 20;
+	background-color: transparent;
+	border-radius: 50px;
+	transition: 0.5s;
+	width: 0px;
+	overflow-x: hidden;
+	text-align: center;
+}
+.nav-bar a{
+	color: #ffffff;
+	font-size: 25px;
+	margin-right: 5px;
+	background-color: black;
+	border-radius: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.nav-bar a:last-child{
+	background-color: transparent;
+}
+
 /*The head section style*/
 .head{							/*Style's applied for full device height head section */
 	min-height: 100vh;
@@ -64,7 +90,7 @@ h6{
 	padding-top: 1%;
 	text-align: right;
 }
-.menu:hover{
+.menu a:hover{
 	opacity: .5;
 }
 .head-items{
@@ -117,11 +143,14 @@ h6{
 	color: #e1666a;
 }
 /*Hover effect*/
-.onHover .icon-circle{
+.feature-block .icon-circle, .feature-block h3, .craft-btn{
+	transition: all 0.4s ease-in-out;
+}
+.feature-block:hover .icon-circle{
 	color: #ffffff;
 	background-color: #e1666a;
 }
-.onHover h3{
+.feature-block:hover h3{
 	color: #e1666a;
 }
 /*Explore mind-craft section style*/
@@ -507,7 +536,6 @@ iframe {
 		width: 800px;
 	}
 }
-/*Humayun*/
 
 /*.explore-mindcraft .row{
 	display: tabe;

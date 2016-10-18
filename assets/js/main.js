@@ -15,12 +15,10 @@ $(document).ready(function(){
     
 });
 
-$(document).ready(function(){
-        $(".feature-block").mouseover(function(){
-             $(this).addClass("onHover");
-        });
-        $(".feature-block").mouseout(function(){
-            $(this).removeClass("onHover");
-        });
-});
+function openNav(){
+        document.getElementById('myNav-bar').style.width = "600px";
+}
+function closeNav(){
+        document.getElementById('myNav-bar').style.width = "0";
+}
 
