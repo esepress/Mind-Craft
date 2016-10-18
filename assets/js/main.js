@@ -15,12 +15,5 @@ $(document).ready(function(){
     
 });
 
-$(document).ready(function(){
-        $(".feature-block").mouseover(function(){
-             $(this).addClass("onHover");
-        });
-        $(".feature-block").mouseout(function(){
-            $(this).removeClass("onHover");
-        });
-});
+
 

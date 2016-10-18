@@ -117,11 +117,14 @@ h6{
 	color: #e1666a;
 }
 /*Hover effect*/
-.onHover .icon-circle{
+.feature-block .icon-circle, .feature-block h3, .craft-btn{
+	transition: all 0.4s ease-in-out;
+}
+.feature-block:hover .icon-circle{
 	color: #ffffff;
 	background-color: #e1666a;
 }
-.onHover h3{
+.feature-block:hover h3{
 	color: #e1666a;
 }
 /*Explore mind-craft section style*/
