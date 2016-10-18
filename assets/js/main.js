@@ -15,5 +15,10 @@ $(document).ready(function(){
     
 });
 
-
+function openNav(){
+        document.getElementById('myNav-bar').style.width = "600px";
+}
+function closeNav(){
+        document.getElementById('myNav-bar').style.width = "0";
+}
 
