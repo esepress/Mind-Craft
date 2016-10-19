@@ -12,7 +12,12 @@ $(document).ready(function(){
         autoHeight: true
     });
     /*Hover effect script for feature block*/
-    
+    $("#main").click(function(){
+        $("#main").hide();
+    });
+    $('#close').click(function(){
+        $("#main").show();
+    })
 });
 
 function openNav(){
