@@ -21,9 +21,9 @@ $(document).ready(function(){
 });
 
 function openNav(){
-        document.getElementById('myNav-bar').style.width = "600px";
+        document.getElementById('myNav-bar').style.height = "400px";
 }
 function closeNav(){
-        document.getElementById('myNav-bar').style.width = "0";
+        document.getElementById('myNav-bar').style.height = "0";
 }
 
