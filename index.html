@@ -26,7 +26,9 @@
 	</head>
 
 	<body>
-	<!-- Head section taking full device height -->
+	<!-- It's for the click in body -->
+	<div class="overlay" id="overlay" onclick="closeNav()"></div>
+		<!-- Head section taking full device height -->
 		<section class="head">
 		    <div class="blur">   <!-- Blur div is for bluring the bacground image -->
 				<div class="container">
@@ -34,18 +36,23 @@
 						<div class="col-md-6 col-xs-6">
 							<a href="index.html"><img src="assets/icon/logo.png"></a>
 						</div>
-						<div class="col-md-6 col-xs-6 menu">
-							<a href="#" onclick="openNav()">
-								<img src="assets/icon/menu.png">
-							</a>
-						</div>
-						<div id="myNav-bar" class="nav-bar">
-							<a href="#">Home</a>
-							<a href="#">Action</a>
-							<a href="#">Testimonial</a>
-							<a href="#">Newsletter</a>
-							<a href="javascript:void(0)" onclick="closeNav()"><i class="fa fa-arrow-right"></i></a>
-						</div>
+						
+						<div class="col-lg-6 col-xs-6 col-sm-6 col-md-6 text-right">
+		                    <div id="mySidenav" class="sidenav text-center">
+		                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+		                        <a href="#">Home</a><hr>
+		                        <a href="#explore">Explore</a><hr>
+								<a href="#mindcraft-action">Action</a><hr>
+								<a href="#testimonial-section">Testimonial</a><hr>
+		                        <a href="#user-interface">User-interface</a><hr>
+								<a href="#newsletter">Newsletter</a>              
+		                    </div>
+		                    <div class="main" id="main">
+		                      <a href="#" onclick="openNav()">
+									<img src="assets/icon/menu.png">
+								</a>
+		                    </div> 
+		                </div>
 					</div>
 					<div class="row head-body">
 						<div class="col-md-7 col-xs-12 head-items">
@@ -119,7 +126,7 @@
 			</div>
 		</section>
 		<!-- This is explore mind craft section -->
-		<section class="section explore-mindcraft">
+		<section id="explore" class="section explore-mindcraft">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3 col-xs-6">
@@ -152,7 +159,7 @@
 			</div>
 		</section>
 		<!-- Midcraft in action with the video frame -->
-		<section class="mindcraft-action section">
+		<section id="mindcraft-action" class="mindcraft-action section">
 			<div class="container">
 				<h2>MINDCRAFT IN ACTION</h2>
 				<div>
@@ -169,7 +176,7 @@
 			</div>
 		</section>
 		<!-- Testimonial section -->
-		<section class="testimonial">
+		<section id="testimonial-section" class="testimonial">
 			<div class="blur">
 				<h2>TESTIMONIAL</h2>
 				<div class="owl-carousel owl-theme" id="testimonial">
@@ -219,7 +226,7 @@
 			</div>
 		</section>
 		<!-- Section for the simple user interface -->
-		<section class="section user-interface">
+		<section id="user-interface" class="section user-interface">
 			<div class="container">
 				<h2>SIMPLEST USER INTERFACE</h2>
 				<div class="row">
@@ -268,7 +275,7 @@
 			</div>
 		</section>
 		<!-- This is the newsletter section -->
-		<section class="newsletter">
+		<section id="newsletter" class="newsletter">
 			<div class="blur">
 				<div class="container">
 					<h2>SIGN UP FOR NEWSLETTER</h2>
