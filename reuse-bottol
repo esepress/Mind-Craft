@@ -236,3 +236,70 @@ function closeNav() {
     document.getElementById("overlay").style.width = "0%";
     document.getElementById("overlay").style.height = "0%";
 }
+
+
+
+It is the navbar property
+
+[[[[[[[[[[[[[
+
+
+		<div id="myNav-bar" class="nav-bar">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#mindcraft-action">Action</a></li>
+								<li><a href="#testimonial-section">Testimonial</a></li>
+								<li><a href="#newsletter">Newsletter</a></li>
+								<a href="javascript:void(0)" id="close" onclick="closeNav()">
+									<i class="fa fa-long-arrow-up fa-2x"></i>
+								</a>
+							</ul>
+						</div>
+
+
+<div  class="col-md-6 col-xs-6 menu">
+								<a href="#" id="main" onclick="openNav()">
+									<img src="assets/icon/menu.png">
+								</a>
+							</div>
+
+							
+
+		.nav-bar{
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			z-index: 20;
+			background-color: black;
+			transition: 0.5s;
+			width: 800px;
+			height: 0px;
+			overflow-x: hidden;
+			overflow-y: hidden;
+			text-align: center;
+			border-bottom-left-radius: 20px;
+		}
+		.nav-bar a{
+			color: #ffffff;
+			font-size: 25px;
+			margin-right: 5px;
+			background-color: transparent;
+			border-radius: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border:1px solid black;
+			text-decoration: none;
+		}
+		.nav-bar a:first-child{
+			background-color: transparent;
+			border:none;
+		}
+		.nav-bar ul{
+			padding-left: 0px;
+		}
+		.nav-bar li{
+			list-style-type: none;
+			display: inline-block;
+			padding: 10px 20px;
+		}
+]]]]]]]]]]]]]]

@@ -39,37 +39,73 @@ h6{
 }
 .blur{			/*Bluring the bacground images*/
 	z-index: 2;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.5);
 	margin: 0px;
 	padding-top: 7%;
 	padding-bottom: 5%;
 }
 /*Menu bar style*/
-.nav-bar{
-	position: absolute;
-	top: 40px;
-	right: 150px;
-	z-index: 20;
-	background-color: transparent;
-	border-radius: 50px;
-	transition: 0.5s;
-	width: 0px;
-	overflow-x: hidden;
-	text-align: center;
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
+  z-index: 9;
+  /*background-color: rgba(0,0,0,0.1);*/ /*dim the background*/
 }
-.nav-bar a{
-	color: #ffffff;
-	font-size: 25px;
-	margin-right: 5px;
-	background-color: black;
-	border-radius: 30px;
-	padding-left: 10px;
-	padding-right: 10px;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
 }
-.nav-bar a:last-child{
-	background-color: transparent;
+.main a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    cursor:pointer;
+    word-spacing: 10px;
+    font-weight: 600;
+
+}
+.sidenav a {
+    padding: 5%;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.sidenav hr{
+    margin-bottom: 5px;
+    margin-top: 6px;
 }
 
+.sidenav a:hover, .offcanvas a:focus{
+    color: #2c2b2b;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding-right: 6px;
+    padding-top: 15px;
+}
 /*The head section style*/
 .head{							/*Style's applied for full device height head section */
 	min-height: 100vh;
@@ -534,6 +570,10 @@ iframe {
 	iframe{
 		height: 500px;
 		width: 800px;
+	}
+	.head-items{
+		padding-top: 20vh;
+		padding-bottom: 18vh;
 	}
 }
 
