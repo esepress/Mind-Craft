@@ -122,11 +122,11 @@ h6{
 	padding-top: 3%;
 	z-index: 1;
 }
-.menu{
+.main{
 	padding-top: 1%;
 	text-align: right;
 }
-.menu a:hover{
+.main a:hover{
 	opacity: .5;
 }
 .head-items{
