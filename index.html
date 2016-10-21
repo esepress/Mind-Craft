@@ -27,12 +27,39 @@
 
 	<body>
 	<!-- It's for the click in body -->
-	<div class="overlay" id="overlay" onclick="closeNav()"></div>
+		<div class="overlay" id="overlay" onclick="closeNav()"></div>
+		<!-- This menu will be shown after scrolling -->
+		<div id="menu" class="menu-zero">
+			<div class="container">
+				<div id="menu" class="row menu-bar">
+					<div class="col-md-6 col-xs-6">
+						<a href="index.html"><img src="assets/icon/logo.png"></a>
+					</div>
+					
+					<div class="col-lg-6 col-xs-6 col-sm-6 col-md-6 text-right">
+		                <div id="mySidenav" class="sidenav text-center">
+		                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+		                    <a href="#">Home</a><hr>
+		                    <a href="#explore">Explore</a><hr>
+							<a href="#mindcraft-action">Action</a><hr>
+							<a href="#testimonial-section">Testimonial</a><hr>
+		                    <a href="#user-interface">User-interface</a><hr>
+							<a href="#newsletter">Newsletter</a>              
+		                </div>
+		                <div class="main" id="main">
+		                  <a href="#" onclick="openNav()">
+								<img src="assets/icon/menu.png">
+							</a>
+		                </div> 
+		            </div>
+				</div>
+			</div>
+		</div>
 		<!-- Head section taking full device height -->
 		<section class="head">
 		    <div class="blur">   <!-- Blur div is for bluring the bacground image -->
 				<div class="container">
-					<div class="row menu-bar"> <!-- The menu bar -->
+					<div class="row menu-bar"> 
 						<div class="col-md-6 col-xs-6">
 							<a href="index.html"><img src="assets/icon/logo.png"></a>
 						</div>
