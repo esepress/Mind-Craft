@@ -58,9 +58,9 @@ h6{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 10;
-    top: 0;
+    z-index: 13;
     right: 0;
+    top: 0;
     background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
@@ -112,6 +112,7 @@ h6{
 	background-image: url(../img/1.jpg);
 	background-size: 100% 100%;
 	z-index: -1;
+	background-attachment: fixed;
 }
 .head .blur{
 	padding-top: 0px;
@@ -122,11 +123,30 @@ h6{
 	padding-top: 3%;
 	z-index: 1;
 }
-.menu{
+.menu-zero{
+	height: 0px;
+	overflow-y: hidden;
+}
+.menu-fixed{
+	padding-top: 0px;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	transition: 1s;
+	transition: all 1s ease-in-out;
+	height: 70px;
+	overflow-y: hidden;
+	z-index: 10;
+}
+.menu-fixed .container .menu-bar{
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+.main{
 	padding-top: 1%;
 	text-align: right;
 }
-.menu a:hover{
+.main a:hover{
 	opacity: .5;
 }
 .head-items{
@@ -251,6 +271,7 @@ iframe {
 	z-index: -1;
 	color: white;
 	text-align: center;
+	background-attachment: fixed;
 }
 .carousel-view{
 	color: black;

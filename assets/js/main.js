@@ -12,6 +12,23 @@ $(document).ready(function(){
         autoHeight: true
     });
 
+    $("#menu-click").click(function(event){
+            event.preventDefault();
+        });
+
+    $(window).scroll(function(){
+       var scrollTop = $(window).scrollTop();
+        if(scrollTop>300){
+             $("#menu").addClass("menu-fixed");
+        }
+        else
+        $("#menu").removeClass("menu-fixed");
+    });
+    var mySidenavwidth = $("#mySidenav").width();
+    if (mySidenavwidth>0) {
+        $("#menu").removeClass("menu-fixed");
+    };
+
     /*$('#close').hide();
     $("#main").click(function(){
         $("#main").hide();
