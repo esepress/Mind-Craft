@@ -15,32 +15,18 @@ $(document).ready(function(){
     $("#menu-click").click(function(event){
             event.preventDefault();
         });
-    $("#nav").hide();
+    /*$("#nav").hide();*/
     $(window).scroll(function(){
        var scrollTop = $(window).scrollTop();
-        if(scrollTop>300)
-             $("#nav").show();
-        else
-        $("#nav").hide();
+        if(scrollTop>500){
+             $("#nav").css("background-color", "black");
+         }
+        else{
+        $("#nav").css("background-color", "transparent");
+    }
     });
-
-    /*$('#close').hide();
-    $("#main").click(function(){
-        $("#main").hide();
-        $('#close').show();
-    });
-    $('#close').click(function(){
-        $("#main").show();
-        $('#close').hide();
-    })*/
 });
 
-/*function openNav(){
-        document.getElementById('myNav-bar').style.height = "80px";
-}
-function closeNav(){
-        document.getElementById('myNav-bar').style.height = "0";
-}*/
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
