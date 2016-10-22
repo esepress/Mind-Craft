@@ -18,7 +18,7 @@ $(document).ready(function(){
     /*$("#nav").hide();*/
     $(window).scroll(function(){
        var scrollTop = $(window).scrollTop();
-        if(scrollTop>500){
+        if(scrollTop>100){
              $("#nav").css("background-color", "black");
          }
         else{
