@@ -15,19 +15,14 @@ $(document).ready(function(){
     $("#menu-click").click(function(event){
             event.preventDefault();
         });
-
+    $("#nav").hide();
     $(window).scroll(function(){
        var scrollTop = $(window).scrollTop();
-        if(scrollTop>300){
-             $("#menu").addClass("menu-fixed");
-        }
+        if(scrollTop>300)
+             $("#nav").show();
         else
-        $("#menu").removeClass("menu-fixed");
+        $("#nav").hide();
     });
-    var mySidenavwidth = $("#mySidenav").width();
-    if (mySidenavwidth>0) {
-        $("#menu").removeClass("menu-fixed");
-    };
 
     /*$('#close').hide();
     $("#main").click(function(){
