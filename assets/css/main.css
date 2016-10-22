@@ -127,10 +127,6 @@ h6{
 	height: 0px;
 	overflow-y: hidden;
 }
-.custom-menu{
-	padding-top: 5px;
-	z-index: 1;
-}
 .menu-fixed .container .menu-bar{
 	padding-top: 4px;
 	padding-bottom: 2px;
@@ -147,6 +143,9 @@ h6{
 	color: white;
 	padding-top: 18vh;
 	padding-bottom: 18vh;
+}
+.head-body{
+	padding-top: 13vh;
 }
 /*Download button property*/
 .craft-btn{
@@ -420,6 +419,10 @@ iframe {
 
 @media (min-width: 300px) 
 {
+	.custom-menu{
+		background-color: transparent;
+		border:none;
+	}
 	iframe{
 		height: 200px;
 		width: 280px;
@@ -589,6 +592,11 @@ iframe {
 	.head-items{
 		padding-top: 20vh;
 		padding-bottom: 18vh;
+	}
+	.custom-menu{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		transition: 2s;
 	}
 }
 
