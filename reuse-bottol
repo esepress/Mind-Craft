@@ -303,3 +303,103 @@ It is the navbar property
 			padding: 10px 20px;
 		}
 ]]]]]]]]]]]]]]
+
+
+padding-top: 0px;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	transition: 1s;
+	transition: all 1s ease-in-out;
+	height: 70px;
+	overflow-y: hidden;
+	z-index: 10;
+
+
+	<div>
+					<nav class="custom-menu navbar navbar-inverse navbar-fixed-top">
+			  <div class="container">
+			    <div class="navbar-header">
+			      <a href="index.html"><img src="assets/icon/logo.png"></a>
+			    </div>
+			    
+			    <ul class="nav navbar-nav navbar-right">
+
+			       <div id="mySidenav" class="sidenav text-center">
+	                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+	                    <a href="#">Home</a><hr>
+	                    <a href="#explore">Explore</a><hr>
+						<a href="#mindcraft-action">Action</a><hr>
+						<a href="#testimonial-section">Testimonial</a><hr>
+	                    <a href="#user-interface">User-interface</a><hr>
+						<a href="#newsletter">Newsletter</a>              
+	                </div>
+
+			       <div class="main" id="main">
+	                    <a onclick="openNav()">
+							<img src="assets/icon/menu.png">
+						</a>
+	                </div>
+			    </ul>
+			  </div>
+			  </nav>
+				</div>
+
+
+<div>
+					<nav class="custom-menu navbar navbar-inverse navbar-fixed-top">
+			  <div class="container">
+			    <div class="navbar-header">
+			      <a href="index.html"><img src="assets/icon/logo.png"></a>
+			    </div>
+			    
+			    <ul class="nav navbar-nav navbar-right">
+
+			       <div id="mySidenav" class="sidenav text-center">
+	                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+	                    <a href="#">Home</a><hr>
+	                    <a href="#explore">Explore</a><hr>
+						<a href="#mindcraft-action">Action</a><hr>
+						<a href="#testimonial-section">Testimonial</a><hr>
+	                    <a href="#user-interface">User-interface</a><hr>
+						<a href="#newsletter">Newsletter</a>              
+	                </div>
+
+			       <div class="main" id="main">
+	                    <a onclick="openNav()">
+							<img src="assets/icon/menu.png">
+						</a>
+	                </div>
+			    </ul>
+			  </div>
+			  </nav>
+				</div>
+
+
+
+<!-- <div id="menu" class="menu-zero">
+			<div class="container">
+				<div id="menu" class="row menu-bar">
+					<div class="col-md-6 col-xs-6">
+						<a href="index.html"><img src="assets/icon/logo.png"></a>
+					</div>
+					
+					<div class="col-lg-6 col-xs-6 col-sm-6 col-md-6 text-right">
+		                <div id="mySidenav" class="sidenav text-center">
+		                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+		                    <a href="#">Home</a><hr>
+		                    <a href="#explore">Explore</a><hr>
+							<a href="#mindcraft-action">Action</a><hr>
+							<a href="#testimonial-section">Testimonial</a><hr>
+		                    <a href="#user-interface">User-interface</a><hr>
+							<a href="#newsletter">Newsletter</a>              
+		                </div>
+		                <div class="main" id="main">
+		                  <a id="menu-click" href="#" onclick="openNav()">
+								<img src="assets/icon/menu.png">
+							</a>
+		                </div> 
+		            </div>
+				</div>
+			</div>
+		</div> -->
