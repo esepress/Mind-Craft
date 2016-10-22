@@ -58,7 +58,7 @@ h6{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 13;
+    z-index: 1031;
     right: 0;
     top: 0;
     background-color: white;
@@ -73,7 +73,6 @@ h6{
     cursor:pointer;
     word-spacing: 10px;
     font-weight: 600;
-
 }
 .sidenav a {
     padding: 5%;
@@ -127,16 +126,9 @@ h6{
 	height: 0px;
 	overflow-y: hidden;
 }
-.menu-fixed{
-	padding-top: 0px;
-	background-color: black;
-	position: fixed;
-	width: 100%;
-	transition: 1s;
-	transition: all 1s ease-in-out;
-	height: 70px;
-	overflow-y: hidden;
-	z-index: 10;
+.custom-menu{
+	padding-top: 5px;
+	z-index: 1;
 }
 .menu-fixed .container .menu-bar{
 	padding-top: 4px;
