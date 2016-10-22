@@ -112,6 +112,7 @@ h6{
 	background-image: url(../img/1.jpg);
 	background-size: 100% 100%;
 	z-index: -1;
+	background-attachment: fixed;
 }
 .head .blur{
 	padding-top: 0px;
@@ -270,6 +271,7 @@ iframe {
 	z-index: -1;
 	color: white;
 	text-align: center;
+	background-attachment: fixed;
 }
 .carousel-view{
 	color: black;
