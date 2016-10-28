@@ -4,6 +4,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6,button{
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 
 }
 p{
@@ -17,10 +18,11 @@ p{
 }
 .fun-text{
 	font-size: 21px;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 h1{
 	font-size: 45px;
+	font-weight: 400;
 }
 h2{
     font-size: 32px;
@@ -343,6 +345,15 @@ iframe {
 .interface-block{
 	margin-bottom: 5%;
 }
+/*.interface-block:hover .icon-circle img{
+	zoom:1.3;
+}*/
+/*.interface-block:hover .para-zom{
+	zoom:1.3;
+}*/
+/*.zoom-act:hover{
+	zoom:110%;
+}*/
 /*News letter section style*/
 .newsletter{
 	background-image: url(../img/7.jpg);
