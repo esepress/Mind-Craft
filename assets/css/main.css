@@ -107,6 +107,10 @@ h6{
     padding-right: 6px;
     padding-top: 15px;
 }
+.craft-bar{
+	padding: 0px;
+	padding-top: 4px;
+}
 /*The head section style*/
 .head{							/*Style's applied for full device height head section */
 	min-height: 100vh;
